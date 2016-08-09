@@ -71,7 +71,7 @@ Note that you require the package the exact same way: `require('slack')`, in thi
 
 We might not be fixing a bug when we use a GitHub-based npm package. We might just be adding a feature that we need (but that might not be useful or could be confusing for other users); we might be reviving a dead package, or we might be trying out a new package that we've written that we aren't yet ready to publish to npm. These are all great reasons to use URL-based dependencies.
 
-We might also be using a private library that we _can't_ publish to npm. In thiscase, we'll need to configure our server so that it can authenticate with, e.g., GitHub to access the private repository; but once that's done, it's just a matter of pointing to the URL — `npm install` will take care of the rest.
+We might also be using a private library that we _can't_ publish to npm. In this case, we'll need to configure our server so that it can authenticate with, e.g., GitHub to access the private repository; but once that's done, it's just a matter of pointing to the URL — `npm install` will take care of the rest.
 
 ## Why not?
 
@@ -82,3 +82,5 @@ We say "for now," because it could be that a better package management solution 
 ## Resources
 
 - [package.json documentation](https://docs.npmjs.com/files/package.json#urls-as-dependencies): https://docs.npmjs.com/files/package.json#urls-as-dependencies
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/node-js-fancy-imports'>Fancy Imports</a> on Learn.co and start learning to code for free.</p>
